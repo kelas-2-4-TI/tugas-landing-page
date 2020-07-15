@@ -1,0 +1,17 @@
+/* Navbar */
+.navbar-brand {
+    font-family: Viga;
+    font-size: 32px;
+}
+
+/* DESKTOP VERSION*/
+@media (min-width: 992px) {
+    .navbar-brand,.nav-link{
+        color: white !important;
+        text-shadow: 1px 1px 1px rgba(0,0,0,0.7);
+    }
+
+    .nav-link{
+        text-transform: uppercase;
+        margin-right: 30px; 
+    } 
